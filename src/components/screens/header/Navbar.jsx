@@ -1,4 +1,6 @@
 import styles from "./Navbar.module.css";
+import PropTypes from "prop-types";
+// import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -10,7 +12,11 @@ export default function Navbar() {
         SolidityShool
       </a>
       <ul>
-        <li>
+        <CustomLink href="/tasks">Упражнения</CustomLink>
+        <CustomLink href="/leaderboard">Лидеры</CustomLink>
+        <CustomLink href="/resources">Ресурсы</CustomLink>
+        <CustomLink href="/price">Цены</CustomLink>
+        {/* <li>
           <a href="/tasks">Упражнения</a>
         </li>
         <li>
@@ -21,7 +27,7 @@ export default function Navbar() {
         </li>
         <li>
           <a href="/price">Цены</a>
-        </li>
+        </li> */}
       </ul>
       <div className={styles.buttonContainer}>
         <button className={styles.button} href="/login">
@@ -31,3 +37,20 @@ export default function Navbar() {
     </nav>
   );
 }
+
+function CustomLink({ href, children, ...props }) {
+  const path = window.location.pathname;
+
+  return (
+    <li className={path === href ? styles.active : ""}>
+      <a href={href} {...props}>
+        {children}
+      </a>
+    </li>
+  );
+}
+
+CustomLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
