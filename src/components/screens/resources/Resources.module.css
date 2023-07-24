@@ -1,0 +1,36 @@
+.ulyt {
+  list-style-type: "🔴";
+  list-style-position: inside;
+  text-align: center;
+  font-size: 18px;
+}
+
+.ultg {
+  list-style-type: "🔵";
+  list-style-position: inside;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div2 {
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 26px;
+}
