@@ -57,11 +57,30 @@ function Resources() {
               каналы
             </h2>
             <ul className={styles.ultg} style={{ textAlign: "center" }}>
-              <li>Первый</li>
-              <li>Второй</li>
-              <li>Третий</li>
-              <li>Четвертый</li>
-              <li>Пятый</li>
+              <li>
+                {" "}
+                <a href="https://t.me/dev_in_ruby_colors">
+                  https://t.me/dev_in_ruby_colors
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/dev_solidity">
+                  https://t.me/dev_solidity
+                </a>
+              </li>
+              <li>
+                <a href="https://teletype.in/@maxycrypto/solidity_30days">
+                  https://teletype.in/@maxycrypto/solidity_30days
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/newcryptoshit/453">
+                  https://t.me/newcryptoshit/453
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/terncrypto">https://t.me/terncrypto</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -113,11 +132,29 @@ function Resources() {
               языках
             </h2>
             <ul className={styles.ultg} style={{ textAlign: "center" }}>
-              <li>Первый</li>
-              <li>Второй</li>
-              <li>Третий</li>
-              <li>Четвертый</li>
-              <li>Пятый</li>
+              <li>
+                <a href="https://cryptozombies.io">https://cryptozombies.io</a>
+              </li>
+              <li>
+                <a href="https://www.useweb3.xyz/code-challenges">
+                  https://www.useweb3.xyz/code-challenges
+                </a>
+              </li>
+              <li>
+                <a href="https://capturetheether.com/challenges/">
+                  https://capturetheether.com/challenges/
+                </a>
+              </li>
+              <li>
+                <a href="https://ethernaut.openzeppelin.com">
+                  https://ethernaut.openzeppelin.com
+                </a>
+              </li>
+              <li>
+                <a href="https://speedrunethereum.com">
+                  https://speedrunethereum.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>

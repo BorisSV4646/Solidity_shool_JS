@@ -1,16 +1,24 @@
+import styles from "./Home.module.css";
+
 function Home() {
   return (
     <div className="container text-center firstcontainer">
-      <div className="row align-items-center">
-        <div className="col my-3">
-          <img src="../static/img/for_slide.png" alt="" />
-          <h1 style={{ color: "black" }}>
-            Что такое <span style={{ color: "#0d6dfd" }}>Solidity</span>?
-          </h1>
-          <p style={{ color: "black" }}>
-            небольшое объяснение, для тех, кто не в курсе
-          </p>
+      <div
+        className="row align-items-center"
+        style={{ backgroundColor: "#2b3035" }}
+      >
+        <div
+          className=""
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "80vh",
+          }}
+        >
+          <img src="../../../../public/for_slide.png" alt="" />
         </div>
+        {/*
         <div className="col">
           <div className="row">
             <div className="col-1 my-3" style={{ marginRight: "10px" }}>
@@ -76,7 +84,7 @@ function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -16,18 +16,6 @@ export default function Navbar() {
         <CustomLink href="/leaderboard">Лидеры</CustomLink>
         <CustomLink href="/resources">Ресурсы</CustomLink>
         <CustomLink href="/price">Цены</CustomLink>
-        {/* <li>
-          <a href="/tasks">Упражнения</a>
-        </li>
-        <li>
-          <a href="/leaderboard">Лидеры</a>
-        </li>
-        <li>
-          <a href="/resources">Ресурсы</a>
-        </li>
-        <li>
-          <a href="/price">Цены</a>
-        </li> */}
       </ul>
       <div className={styles.buttonContainer}>
         <button className={styles.button} href="/login">
